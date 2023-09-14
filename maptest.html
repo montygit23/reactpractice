@@ -1,0 +1,30 @@
+<p id="showdatahere"> </p>
+
+<script>
+
+    const oldarr = ['value1', 'value2', 'value3'];
+    const studentData = [{ id: '1', name: 'mohit', degree: 'mca' },
+    { id: '2', name: 'negi', degree: 'bca' },
+    { id: '4', name: 'rohit', degree: '10' },
+    { id: '4', name: 'rohit', degree: '10' },]
+
+
+    const newdata=studentData.map((cvalue)=>{
+        // return ( `My name is ${cvalue.name}. My highest qualificaton is ${cvalue.degree}`);
+        console.log(cvalue);
+        return cvalue;
+    })
+
+    console.log(newdata);
+
+    // document.getElementById("showdatahere").innerHTML=newdata;
+
+
+
+    // console.log(oldarr);
+    // const newarr = oldarr.map(function (cval, i) {
+    //     console.log("this is " + cval);
+    // })
+
+    // console.log(newarr);
+</script>
